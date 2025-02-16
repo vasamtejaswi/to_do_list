@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Daily Progress Tracker</h1>
+    <div class="tracker-container">
+        <h2>Today's Progress:</h2>
+        <form id="progress-form">
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" name="activity"><br><br>
+            <label for="duration">Duration (hours):</label>
+            <input type="number" id="duration" name="duration"><br><br>
+            <button id="add-progress-btn">Add Progress</button>
+        </form>
+        <h2>Progress Log:</h2>
+        <ul id="progress-log"></ul>
+        <div class="streak-container">
+            <span id="streak-symbol"></span>
+            <span id="streak-counter"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
